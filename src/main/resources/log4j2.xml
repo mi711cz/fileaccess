@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+    <!-- <Properties>-->
+    <!-- <Property name="layout">%d [%t] %-5level %logger - %m%n</Property>-->
+    <!-- </Properties>-->
+    <!-- -->
+    <!-- <Appenders>-->
+    <!-- -->
+    <!-- <Console name="Console" target="SYSTEM_OUT">-->
+    <!-- <PatternLayout pattern="${layout}" />-->
+    <!-- </Console>-->
+    <!-- <File name="MyFile" fileName="/home/mczochar/JAVA/mylog.log" append="true">-->
+    <!-- <PatternLayout pattern="${layout}"/>-->
+    <!-- </File>-->
+    <!-- </Appenders>-->
+    <!-- -->
+    <!-- <Loggers>-->
+    <!-- <Logger name="main" level="info" additivity="true" >-->
+    <!-- <AppenderRef ref="MyFile" />-->
+    <!-- </Logger>-->
+    <!-- -->
+    <!-- <Root level="info">-->
+    <!-- <AppenderRef ref="Console" />-->
+    <!-- </Root>    -->
+    <!-- </Loggers>-->
+    <Properties>
+        <Property name="logdir">/home/mczochar/JAVA</Property>
+        <Property name="layout">%d [%t] %-5level %logger{36} - %m%n</Property>
+    </Properties>
+    <Appenders>
+        <Console name="Console">
+            <PatternLayout pattern="${layout}"/>
+        </Console>
+        <RollingFile name="MyFile" fileName="${logdir}/app.log" filePattern="${logdir}/app.%d{yyyy-MM-dd}.%i.log">
+            <PatternLayout pattern="${layout}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="1 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger name="main" level="info" additivity="true">
+            <AppenderRef ref="MyFile"/>
+        </Logger>
+        <Logger name="FileAccess" level="info" additivity="true">
+            <AppenderRef ref="MyFile"/>
+        </Logger>
+        <Logger name="CheckArguments" level="info" additivity="true">
+            <AppenderRef ref="MyFile"/>
+        </Logger>
+        <Logger name="checkConfigurationFile" level="info" additivity="true">
+            <AppenderRef ref="MyFile"/>
+        </Logger>
+        <Root level="error">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>
