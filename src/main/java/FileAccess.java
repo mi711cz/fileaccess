@@ -7,7 +7,7 @@ public class FileAccess {
 
     private static final Logger logger = LogManager.getLogger(FileAccess.class);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         logger.info("Starting: " + System.getProperty("sun.java.command").split(" ")[0]);
 // Define used parameter
         String[] parameter = {"SplittingChar", "InputFile", "OutputFile"};
@@ -19,7 +19,7 @@ public class FileAccess {
         check.checkparameter(parameter);
 
         String[] files = {CheckConfigurationFile.getParameter(parameter[1]), CheckConfigurationFile.getParameter(parameter[2])};
-        check.checkConfigFiles(files);
+        check.checkConfigFiles(CheckConfigurationFile.getParameter(parameter[2]), files);
 
 // Call executing method generateResultFile after checking arguments/configuration
         try {

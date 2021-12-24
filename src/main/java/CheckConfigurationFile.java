@@ -1,6 +1,7 @@
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ResourceBundle;
@@ -27,7 +28,7 @@ public class CheckConfigurationFile {
         return rb.getString(parameter);
     }
 
-    public void checkConfigFiles(String[] parameter) {
+/*    public void checkConfigFiles(String[] parameter) {
 
         for (String file : parameter) {
 //            logger.info("Checking file: " + file);
@@ -39,6 +40,39 @@ public class CheckConfigurationFile {
             } catch (IOException e) {
                 logger.error("File is not readable: " + file);
             }
+        }
+    }
+}*/
+
+    // Check input and output files for access
+    public void checkConfigFiles(String outputFile, String[] fileList) throws IOException {
+        for (String file : fileList) {
+            try {
+                FileReader fr = new FileReader(file);
+                fr.read();
+                fr.close();
+            } catch (IOException e) {
+                logger.warn("File is not readable: " + file);
+            }
+        }
+
+        File fileX = new File(outputFile);
+        if(fileX.exists()) {
+            boolean deleteResult = fileX.delete();
+            if (deleteResult) {
+                logger.info("Output datei vorhanden ... wird gelöscht.");
+            } else {
+                logger.warn("Output file could not be deleted.");
+                System.exit(9);
+            }
+        }
+
+        boolean fileXcreated = fileX.createNewFile();
+        if (!fileXcreated) {
+            logger.error("Outputfile could not be created: " + fileX);
+            System.exit(9);
+        } else {
+            logger.info("Output file recreated: " + fileX);
         }
     }
 }
