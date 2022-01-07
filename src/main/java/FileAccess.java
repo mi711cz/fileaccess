@@ -16,7 +16,7 @@ public class FileAccess {
         checkArguments.checkGivenArguments(args);
 // Check configuration file
         CheckConfigurationFile check = new CheckConfigurationFile();
-        check.checkparameter(parameter);
+        check.checkParameter(parameter);
 
         String[] files = {CheckConfigurationFile.getParameter(parameter[1]), CheckConfigurationFile.getParameter(parameter[2])};
         check.checkConfigFiles(CheckConfigurationFile.getParameter(parameter[2]), files);

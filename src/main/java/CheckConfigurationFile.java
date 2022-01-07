@@ -11,7 +11,7 @@ public class CheckConfigurationFile {
     private static final Logger logger = LogManager.getLogger(CheckConfigurationFile.class);
     private static final ResourceBundle rb = ResourceBundle.getBundle("config");
 
-    public void checkparameter(String[] parameter) {
+    public void checkParameter(String[] parameter) {
 
         logger.info("--> Checking configuration file. START ...");
         for (String a : parameter) {
