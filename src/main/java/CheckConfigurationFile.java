@@ -56,9 +56,9 @@ public class CheckConfigurationFile {
             }
         }
 
-        File fileX = new File(outputFile);
-        if(fileX.exists()) {
-            boolean deleteResult = fileX.delete();
+        File file = new File(outputFile);
+        if(file.exists()) {
+            boolean deleteResult = file.delete();
             if (deleteResult) {
                 logger.info("Output datei vorhanden ... wird gelöscht.");
             } else {
@@ -67,12 +67,12 @@ public class CheckConfigurationFile {
             }
         }
 
-        boolean fileXcreated = fileX.createNewFile();
-        if (!fileXcreated) {
-            logger.error("Outputfile could not be created: " + fileX);
+        boolean checkFileCreated = file.createNewFile();
+        if (!checkFileCreated) {
+            logger.error("Outputfile could not be created: " + file);
             System.exit(9);
         } else {
-            logger.info("Output file recreated: " + fileX);
+            logger.info("Output file recreated: " + file);
         }
     }
 }

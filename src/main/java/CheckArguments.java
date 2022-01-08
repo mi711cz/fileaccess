@@ -9,24 +9,8 @@ public class CheckArguments {
 
         if (arguments.length == 0) {
             logger.info("No files given ... please check.");
-//            System.exit(1);
+
         }
-
-        //    private static void checkFiles(String args) {
-//        try {
-//            Files.exists(Paths.get(args));
-//                logger.info("x");
-//
-//        } catch (IOException e) {
-//            logger.error("File not readalbe: " + args);
-//            e.printStackTrace();
-//        }
-//    }
-
-        // Print all files
-//        for (String k: args) {
-//            logger.info("Checking file ... " + k);
-//        }
 
     }
 }

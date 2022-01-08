@@ -1,0 +1,502 @@
+2021-12-24 12:15:48 INFO  FileAccess:11 - Starting: FileAccess
+2021-12-24 12:15:48 INFO  FileAccess:45 - Count lines in file /home/mczochar/JAVA/test.txt --> [48]
+2021-12-24 12:15:48 INFO  FileAccess:47 - Count lines in file /home/mczochar/JAVA/ausgabe.txt --> [48]
+2021-12-24 12:15:48 INFO  FileAccess:50 - Starting generating result file ...
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [1/48] Values: Ala#.#01.01.2020
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [2/48] Values: Reks#.#02.02.1999
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [3/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [4/48] Values: Karel#.#22.05.1977
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [5/48] Values: Doro#.#06.06.1988
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [6/48] Values: Loli#.#12.12.1955
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [7/48] Values: Ala#.#01.01.2020
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [8/48] Values: Reks#.#02.02.1999
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [9/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [10/48] Values: Karel#.#22.05.1977
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [11/48] Values: Doro#.#06.06.1988
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [12/48] Values: Loli#.#12.12.1955
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [13/48] Values: Ala#.#01.01.2020
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [14/48] Values: Reks#.#02.02.1999
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [15/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [16/48] Values: Karel#.#22.05.1977
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [17/48] Values: Doro#.#06.06.1988
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [18/48] Values: Loli#.#12.12.1955
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [19/48] Values: Ala#.#01.01.2020
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [20/48] Values: Reks#.#02.02.1999
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [21/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [22/48] Values: Karel#.#22.05.1977
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [23/48] Values: Doro#.#06.06.1988
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [24/48] Values: Loli#.#12.12.1955
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [25/48] Values: Ala#.#01.01.2020
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [26/48] Values: Reks#.#02.02.1999
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [27/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [28/48] Values: Karel#.#22.05.1977
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [29/48] Values: Doro#.#06.06.1988
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [30/48] Values: Loli#.#12.12.1955
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [31/48] Values: Ala#.#01.01.2020
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [32/48] Values: Reks#.#02.02.1999
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [33/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [34/48] Values: Karel#.#22.05.1977
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [35/48] Values: Doro#.#06.06.1988
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [36/48] Values: Loli#.#12.12.1955
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [37/48] Values: Ala#.#01.01.2020
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [38/48] Values: Reks#.#02.02.1999
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [39/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [40/48] Values: Karel#.#22.05.1977
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [41/48] Values: Doro#.#06.06.1988
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [42/48] Values: Loli#.#12.12.1955
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [43/48] Values: Ala#.#01.01.2020
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [44/48] Values: Reks#.#02.02.1999
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [45/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [46/48] Values: Karel#.#22.05.1977
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [47/48] Values: Doro#.#06.06.1988
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:15:48 INFO  FileAccess:54 - Reading line: [48/48] Values: Loli#.#12.12.1955
+2021-12-24 12:15:48 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:21:24 INFO  FileAccess:11 - Starting: FileAccess
+2021-12-24 12:21:24 INFO  FileAccess:45 - Count lines in file /home/mczochar/JAVA/test.txt --> [48]
+2021-12-24 12:40:12 INFO  FileAccess:11 - Starting: FileAccess
+2021-12-24 12:40:12 INFO  FileAccess:45 - Count lines in file /home/mczochar/JAVA/test.txt --> [48]
+2021-12-24 12:40:12 INFO  FileAccess:47 - Count lines in file /home/mczochar/JAVA/FileAccess.txt --> [0]
+2021-12-24 12:40:12 INFO  FileAccess:50 - Starting generating result file ...
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [1/48] Values: Ala#.#01.01.2020
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [2/48] Values: Reks#.#02.02.1999
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [3/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [4/48] Values: Karel#.#22.05.1977
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [5/48] Values: Doro#.#06.06.1988
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [6/48] Values: Loli#.#12.12.1955
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [7/48] Values: Ala#.#01.01.2020
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [8/48] Values: Reks#.#02.02.1999
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [9/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [10/48] Values: Karel#.#22.05.1977
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [11/48] Values: Doro#.#06.06.1988
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [12/48] Values: Loli#.#12.12.1955
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [13/48] Values: Ala#.#01.01.2020
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [14/48] Values: Reks#.#02.02.1999
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [15/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [16/48] Values: Karel#.#22.05.1977
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [17/48] Values: Doro#.#06.06.1988
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [18/48] Values: Loli#.#12.12.1955
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [19/48] Values: Ala#.#01.01.2020
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [20/48] Values: Reks#.#02.02.1999
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [21/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [22/48] Values: Karel#.#22.05.1977
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [23/48] Values: Doro#.#06.06.1988
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [24/48] Values: Loli#.#12.12.1955
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [25/48] Values: Ala#.#01.01.2020
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [26/48] Values: Reks#.#02.02.1999
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [27/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [28/48] Values: Karel#.#22.05.1977
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [29/48] Values: Doro#.#06.06.1988
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [30/48] Values: Loli#.#12.12.1955
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [31/48] Values: Ala#.#01.01.2020
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [32/48] Values: Reks#.#02.02.1999
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [33/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [34/48] Values: Karel#.#22.05.1977
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [35/48] Values: Doro#.#06.06.1988
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [36/48] Values: Loli#.#12.12.1955
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [37/48] Values: Ala#.#01.01.2020
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [38/48] Values: Reks#.#02.02.1999
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [39/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [40/48] Values: Karel#.#22.05.1977
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [41/48] Values: Doro#.#06.06.1988
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [42/48] Values: Loli#.#12.12.1955
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [43/48] Values: Ala#.#01.01.2020
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [44/48] Values: Reks#.#02.02.1999
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [45/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [46/48] Values: Karel#.#22.05.1977
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [47/48] Values: Doro#.#06.06.1988
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:40:12 INFO  FileAccess:54 - Reading line: [48/48] Values: Loli#.#12.12.1955
+2021-12-24 12:40:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:41:12 INFO  FileAccess:11 - Starting: FileAccess
+2021-12-24 12:41:12 INFO  FileAccess:45 - Count lines in file /home/mczochar/JAVA/test.txt --> [48]
+2021-12-24 12:41:12 INFO  FileAccess:47 - Count lines in file /home/mczochar/JAVA/FileAccess.txt --> [0]
+2021-12-24 12:41:12 INFO  FileAccess:50 - Starting generating result file ...
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [1/48] Values: Ala#.#01.01.2020
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [2/48] Values: Reks#.#02.02.1999
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [3/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [4/48] Values: Karel#.#22.05.1977
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [5/48] Values: Doro#.#06.06.1988
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [6/48] Values: Loli#.#12.12.1955
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [7/48] Values: Ala#.#01.01.2020
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [8/48] Values: Reks#.#02.02.1999
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [9/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [10/48] Values: Karel#.#22.05.1977
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [11/48] Values: Doro#.#06.06.1988
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [12/48] Values: Loli#.#12.12.1955
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [13/48] Values: Ala#.#01.01.2020
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [14/48] Values: Reks#.#02.02.1999
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [15/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [16/48] Values: Karel#.#22.05.1977
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [17/48] Values: Doro#.#06.06.1988
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [18/48] Values: Loli#.#12.12.1955
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [19/48] Values: Ala#.#01.01.2020
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [20/48] Values: Reks#.#02.02.1999
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [21/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [22/48] Values: Karel#.#22.05.1977
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [23/48] Values: Doro#.#06.06.1988
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [24/48] Values: Loli#.#12.12.1955
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [25/48] Values: Ala#.#01.01.2020
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [26/48] Values: Reks#.#02.02.1999
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [27/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [28/48] Values: Karel#.#22.05.1977
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [29/48] Values: Doro#.#06.06.1988
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [30/48] Values: Loli#.#12.12.1955
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [31/48] Values: Ala#.#01.01.2020
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [32/48] Values: Reks#.#02.02.1999
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [33/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [34/48] Values: Karel#.#22.05.1977
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [35/48] Values: Doro#.#06.06.1988
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [36/48] Values: Loli#.#12.12.1955
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [37/48] Values: Ala#.#01.01.2020
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [38/48] Values: Reks#.#02.02.1999
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [39/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [40/48] Values: Karel#.#22.05.1977
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [41/48] Values: Doro#.#06.06.1988
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [42/48] Values: Loli#.#12.12.1955
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [43/48] Values: Ala#.#01.01.2020
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [44/48] Values: Reks#.#02.02.1999
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [45/48] Values: Pavel#.#03.03.1889
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [46/48] Values: Karel#.#22.05.1977
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [47/48] Values: Doro#.#06.06.1988
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-24 12:41:12 INFO  FileAccess:54 - Reading line: [48/48] Values: Loli#.#12.12.1955
+2021-12-24 12:41:12 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-26 21:48:22 INFO  FileAccess:11 - Starting: FileAccess
+2021-12-26 21:48:22 INFO  FileAccess:45 - Count lines in file /home/mczochar/JAVA/test.txt --> [48]
+2021-12-26 21:48:22 INFO  FileAccess:47 - Count lines in file /home/mczochar/JAVA/FileAccess.txt --> [0]
+2021-12-26 21:48:22 INFO  FileAccess:50 - Starting generating result file ...
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [1/48] Values: Ala#.#01.01.2020
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [2/48] Values: Reks#.#02.02.1999
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [3/48] Values: Pavel#.#03.03.1889
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [4/48] Values: Karel#.#22.05.1977
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [5/48] Values: Doro#.#06.06.1988
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [6/48] Values: Loli#.#12.12.1955
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [7/48] Values: Ala#.#01.01.2020
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [8/48] Values: Reks#.#02.02.1999
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [9/48] Values: Pavel#.#03.03.1889
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [10/48] Values: Karel#.#22.05.1977
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [11/48] Values: Doro#.#06.06.1988
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [12/48] Values: Loli#.#12.12.1955
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [13/48] Values: Ala#.#01.01.2020
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [14/48] Values: Reks#.#02.02.1999
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [15/48] Values: Pavel#.#03.03.1889
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [16/48] Values: Karel#.#22.05.1977
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [17/48] Values: Doro#.#06.06.1988
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [18/48] Values: Loli#.#12.12.1955
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [19/48] Values: Ala#.#01.01.2020
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [20/48] Values: Reks#.#02.02.1999
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [21/48] Values: Pavel#.#03.03.1889
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [22/48] Values: Karel#.#22.05.1977
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [23/48] Values: Doro#.#06.06.1988
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [24/48] Values: Loli#.#12.12.1955
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [25/48] Values: Ala#.#01.01.2020
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [26/48] Values: Reks#.#02.02.1999
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [27/48] Values: Pavel#.#03.03.1889
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [28/48] Values: Karel#.#22.05.1977
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [29/48] Values: Doro#.#06.06.1988
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [30/48] Values: Loli#.#12.12.1955
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [31/48] Values: Ala#.#01.01.2020
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [32/48] Values: Reks#.#02.02.1999
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [33/48] Values: Pavel#.#03.03.1889
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [34/48] Values: Karel#.#22.05.1977
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [35/48] Values: Doro#.#06.06.1988
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [36/48] Values: Loli#.#12.12.1955
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [37/48] Values: Ala#.#01.01.2020
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [38/48] Values: Reks#.#02.02.1999
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [39/48] Values: Pavel#.#03.03.1889
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [40/48] Values: Karel#.#22.05.1977
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [41/48] Values: Doro#.#06.06.1988
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [42/48] Values: Loli#.#12.12.1955
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [43/48] Values: Ala#.#01.01.2020
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [44/48] Values: Reks#.#02.02.1999
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [45/48] Values: Pavel#.#03.03.1889
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [46/48] Values: Karel#.#22.05.1977
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [47/48] Values: Doro#.#06.06.1988
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2021-12-26 21:48:22 INFO  FileAccess:54 - Reading line: [48/48] Values: Loli#.#12.12.1955
+2021-12-26 21:48:22 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2022-01-07 20:14:10 INFO  FileAccess:11 - Starting: FileAccess
+2022-01-07 20:14:10 INFO  FileAccess:45 - Count lines in file /home/mczochar/JAVA/test.txt --> [48]
+2022-01-07 20:14:10 INFO  FileAccess:47 - Count lines in file /home/mczochar/JAVA/FileAccess.txt --> [0]
+2022-01-07 20:14:10 INFO  FileAccess:50 - Starting generating result file ...
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [1/48] Values: Ala#.#01.01.2020
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [2/48] Values: Reks#.#02.02.1999
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [3/48] Values: Pavel#.#03.03.1889
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [4/48] Values: Karel#.#22.05.1977
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [5/48] Values: Doro#.#06.06.1988
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [6/48] Values: Loli#.#12.12.1955
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [7/48] Values: Ala#.#01.01.2020
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [8/48] Values: Reks#.#02.02.1999
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [9/48] Values: Pavel#.#03.03.1889
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [10/48] Values: Karel#.#22.05.1977
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [11/48] Values: Doro#.#06.06.1988
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [12/48] Values: Loli#.#12.12.1955
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [13/48] Values: Ala#.#01.01.2020
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [14/48] Values: Reks#.#02.02.1999
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [15/48] Values: Pavel#.#03.03.1889
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [16/48] Values: Karel#.#22.05.1977
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [17/48] Values: Doro#.#06.06.1988
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [18/48] Values: Loli#.#12.12.1955
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [19/48] Values: Ala#.#01.01.2020
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [20/48] Values: Reks#.#02.02.1999
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [21/48] Values: Pavel#.#03.03.1889
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [22/48] Values: Karel#.#22.05.1977
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [23/48] Values: Doro#.#06.06.1988
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [24/48] Values: Loli#.#12.12.1955
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [25/48] Values: Ala#.#01.01.2020
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [26/48] Values: Reks#.#02.02.1999
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [27/48] Values: Pavel#.#03.03.1889
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [28/48] Values: Karel#.#22.05.1977
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [29/48] Values: Doro#.#06.06.1988
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [30/48] Values: Loli#.#12.12.1955
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [31/48] Values: Ala#.#01.01.2020
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [32/48] Values: Reks#.#02.02.1999
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [33/48] Values: Pavel#.#03.03.1889
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [34/48] Values: Karel#.#22.05.1977
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [35/48] Values: Doro#.#06.06.1988
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [36/48] Values: Loli#.#12.12.1955
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [37/48] Values: Ala#.#01.01.2020
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [38/48] Values: Reks#.#02.02.1999
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [39/48] Values: Pavel#.#03.03.1889
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [40/48] Values: Karel#.#22.05.1977
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [41/48] Values: Doro#.#06.06.1988
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [42/48] Values: Loli#.#12.12.1955
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [43/48] Values: Ala#.#01.01.2020
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Ala' and cccc = '01.01.2020';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [44/48] Values: Reks#.#02.02.1999
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Reks' and cccc = '02.02.1999';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [45/48] Values: Pavel#.#03.03.1889
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Pavel' and cccc = '03.03.1889';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [46/48] Values: Karel#.#22.05.1977
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Karel' and cccc = '22.05.1977';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [47/48] Values: Doro#.#06.06.1988
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Doro' and cccc = '06.06.1988';
+2022-01-07 20:14:10 INFO  FileAccess:54 - Reading line: [48/48] Values: Loli#.#12.12.1955
+2022-01-07 20:14:10 INFO  FileAccess:75 - Writing line: select * from abc where xxxx = 'Loli' and cccc = '12.12.1955';

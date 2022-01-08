@@ -69,7 +69,7 @@ public class FileAccess {
 
 // Generate new line
         String zeile;
-        zeile = "select * from abc where xxxx = '" + zeilenValues0 + "' and cccc = '" + zeilenValues1 + "';";
+        zeile = "select * from abc where Col1 = '" + zeilenValues0 + "' and Col2 = '" + zeilenValues1 + "';";
 
 // Print new line
         logger.info("Writing line: " + zeile);
