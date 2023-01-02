@@ -92,6 +92,7 @@ public class FileAccess {
         while (br.readLine() != null) {
             countLine++;
         }
+        br.close();
 // return amount of lines
         return countLine;
     }
