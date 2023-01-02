@@ -93,6 +93,7 @@ public class FileAccess {
             countLine++;
         }
 // close BufferReader :)
+//
         br.close();
 // return amount of lines
         return countLine;
