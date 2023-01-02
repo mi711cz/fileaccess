@@ -92,8 +92,12 @@ public class FileAccess {
         while (br.readLine() != null) {
             countLine++;
         }
+<<<<<<< HEAD
 // close BufferReader :)
 //
+=======
+// close BufferReader 
+>>>>>>> origin/change-004
         br.close();
 // return amount of lines
         return countLine;
