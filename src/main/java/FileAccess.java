@@ -2,99 +2,90 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 
+/**
+ * FileAccess - Processes input file and generates SQL queries from data.
+ * Reads lines from input file, splits them, and generates SELECT statements.
+ */
 public class FileAccess {
 
     private static final Logger logger = LogManager.getLogger(FileAccess.class);
+    private static final String[] REQUIRED_PARAMETERS = {"SplittingChar", "InputFile", "OutputFile"};
 
-    public static void main(String[] args) throws IOException {
-        logger.info("Starting: " + System.getProperty("sun.java.command").split(" ")[0]);
-// Define used parameter
-        String[] parameter = {"SplittingChar", "InputFile", "OutputFile"};
-// Check arguments
-        CheckArguments checkArguments = new CheckArguments();
-        checkArguments.checkGivenArguments(args);
-// Check configuration file
-        CheckConfigurationFile check = new CheckConfigurationFile();
-        check.checkParameter(parameter);
-
-        String[] files = {CheckConfigurationFile.getParameter(parameter[1]), CheckConfigurationFile.getParameter(parameter[2])};
-        check.checkConfigFiles(CheckConfigurationFile.getParameter(parameter[2]), files);
-
-// Call executing method generateResultFile after checking arguments/configuration
+    public static void main(String[] args) {
         try {
-            generateResultFile(CheckConfigurationFile.getParameter(parameter[0]), CheckConfigurationFile.getParameter(parameter[1]), CheckConfigurationFile.getParameter(parameter[2]));
+            logger.info("Starting File Access Application");
+
+            // Validate and load configuration
+            CheckArguments.validateArguments(args);
+            CheckConfigurationFile configChecker = new CheckConfigurationFile();
+            configChecker.checkParameter(REQUIRED_PARAMETERS);
+
+            // Get configuration parameters
+            String splittingChar = CheckConfigurationFile.getParameter(REQUIRED_PARAMETERS[0]);
+            String inputFile = CheckConfigurationFile.getParameter(REQUIRED_PARAMETERS[1]);
+            String outputFile = CheckConfigurationFile.getParameter(REQUIRED_PARAMETERS[2]);
+
+            // Validate input/output files
+            String[] filesToCheck = {inputFile, outputFile};
+            configChecker.checkConfigFiles(outputFile, filesToCheck);
+
+            // Process files
+            processInputFile(splittingChar, inputFile, outputFile);
+            logger.info("File processing completed successfully");
+
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("An I/O error occurred: {}", e.getMessage(), e);
+            System.exit(1);
+        } catch (IllegalArgumentException e) {
+            logger.error("Configuration error: {}", e.getMessage(), e);
+            System.exit(2);
+        } catch (Exception e) {
+            logger.error("Unexpected error: {}", e.getMessage(), e);
+            System.exit(3);
         }
     }
 
-    private static void generateResultFile(String splittingChar, String input, String output) throws IOException {
-// Open InputFile file
-        FileReader fr = new FileReader(input);
-        BufferedReader br = new BufferedReader(fr);
+    private static void processInputFile(String splittingChar, String inputFile, String outputFile) throws IOException {
+        logger.info("Starting to process file: {}", inputFile);
 
-// initializing variables
-        String zeile;
-        int var1 = 1;
-        int maxLinesInput;
-        int maxLinesOutput;
+        try (BufferedReader inputReader = new BufferedReader(
+                new InputStreamReader(new FileInputStream(inputFile), StandardCharsets.UTF_8));
+             BufferedWriter outputWriter = new BufferedWriter(
+                     new OutputStreamWriter(new FileOutputStream(outputFile, false), StandardCharsets.UTF_8))) {
 
-// Call function countLines for first file
-        maxLinesInput = countLines(input);
-        logger.info("Count lines in file " + input + " --> [" + maxLinesInput + "]");
-        maxLinesOutput = countLines(output);
-        logger.info("Count lines in file " + output + " --> [" + maxLinesOutput + "]");
+            String line;
+            int lineNumber = 0;
 
-// Read first file until EOF
-        logger.info("Starting generating result file ...");
-        while ((zeile = br.readLine()) != null) {
-            String[] zeilenValues = zeile.split(splittingChar);
-// Print all lines from first lines
-            logger.info("Reading line: [" + var1 + "/" + maxLinesInput + "] Values: " + zeile);
-            var1++;
-// Call method writeFile
-            writeFile(zeilenValues[0], zeilenValues[1], output);
+            while ((line = inputReader.readLine()) != null) {
+                lineNumber++;
+                String[] values = line.split(splittingChar, -1);
+
+                if (values.length < 2) {
+                    logger.warn("Line {} has insufficient values, skipping: {}", lineNumber, line);
+                    continue;
+                }
+
+                String sqlQuery = generateSqlQuery(values[0], values[1]);
+                logger.debug("Line {}: Writing SQL query", lineNumber);
+                outputWriter.write(sqlQuery);
+                outputWriter.newLine();
+            }
+
+            logger.info("Successfully processed {} lines from input file", lineNumber);
+
+        } catch (FileNotFoundException e) {
+            throw new IOException("Input file not found: " + inputFile, e);
         }
-
-// Close first file
-        br.close();
     }
 
-    //  Method without return
-    private static void writeFile(String zeilenValues0, String zeilenValues1, String output) throws IOException {
-// Open second file
-        FileWriter fw = new FileWriter(output, true);
-        BufferedWriter bw = new BufferedWriter(fw);
-
-// Generate new line
-        String zeile;
-        zeile = "select * from abc where Col1 = '" + zeilenValues0 + "' and Col2 = '" + zeilenValues1 + "';";
-
-// Print new line
-        logger.info("Writing line: " + zeile);
-// Write new line in second file, call method write
-        bw.write(zeile);
-// break line
-        bw.newLine();
-// Close second file
-        bw.close();
+    private static String generateSqlQuery(String col1, String col2) {
+        return "SELECT * FROM abc WHERE Col1 = '" + escapeSqlValue(col1) +
+               "' AND Col2 = '" + escapeSqlValue(col2) + "';";
     }
 
-    // Method with return :)
-    private static int countLines(String file) throws IOException {
-// Open file
-        FileReader fr = new FileReader(file);
-        BufferedReader br = new BufferedReader(fr);
-// Initializing variables
-        int countLine = 0;
-// Count lines in file
-        while (br.readLine() != null) {
-            countLine++;
-        }
-// close BufferReader :)
-        br.close();
-// return amount of lines
-        return countLine;
+    private static String escapeSqlValue(String value) {
+        return value.replace("'", "''");
     }
 }
